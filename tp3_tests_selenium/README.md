@@ -53,7 +53,7 @@ Ce projet comprend une application Flask simple avec un système d'authentificat
    pytest tests/test_login.py
 
 ### Image result test
-![result test](images/result-test.png)
+![result test](tp3_tests_selenium/images/result-test.png)
 
 ##---
 
@@ -143,4 +143,4 @@ Si vous rencontrez des erreurs liées à ChromeDriver :
 - L'application tourne sur `http://localhost:5000/login` par défaut
 
 ### Image interface login
-![interface login](images/interface-app.png)
+![interface login](tp3_tests_selenium/images/interface-app.png)
