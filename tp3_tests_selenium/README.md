@@ -55,57 +55,6 @@ Ce projet comprend une application Flask simple avec un système d'authentificat
 ### Image result test
 ![result test](images/result-test.png)
 
-##---
-
-# TP3 – Tests automatisés avec Selenium
-
-## 🎯 Objectif
-Automatiser des scénarios de test avec Selenium sur une application Flask de login.
-
-## 📋 Description
-Ce projet est une application web de démonstration avec des tests automatisés Selenium. Il comprend :
-- Une application Flask simple avec une page de connexion
-- Des tests automatisés pour différents scénarios de connexion
-- Une configuration prête à l'emploi avec Selenium WebDriver
-
-## 🚀 Prérequis
-- Python 3.7+
-- pip (gestionnaire de paquets Python)
-- Navigateur Chrome installé
-- ChromeDriver (sera installé automatiquement via les dépendances)
-
-## ⚙️ Installation
-
-1. **Cloner le dépôt**
-   ```bash
-   git clone [URL_DU_DEPOT]
-   cd tp3_tests_selenium
-   ```
-
-2. **Créer et activer un environnement virtuel**
-   ```bash
-   python -m venv venv
-   .\venv\Scripts\activate  # Sur Windows
-   source venv/bin/activate  # Sur macOS/Linux
-   ```
-
-3. **Installer les dépendances**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## 🏃‍♂️ Utilisation
-
-1. **Lancer l'application Flask** (dans un premier terminal)
-   ```bash
-   python app/app.py
-   ```
-
-2. **Exécuter les tests** (dans un second terminal)
-   ```bash
-   pytest tests/test_login.py -v  # -v pour un affichage détaillé
-   ```
-
 ## 🧪 Scénarios de test
 
 1. **Test de connexion réussie**
