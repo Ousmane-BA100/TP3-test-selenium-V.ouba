@@ -52,6 +52,8 @@ Ce projet comprend une application Flask simple avec un système d'authentificat
 3. Dans un autre terminal :
    pytest tests/test_login.py
 
+### Image result test
+![result test](images/result-test.png)
 
 ##---
 
@@ -139,3 +141,6 @@ Si vous rencontrez des erreurs liées à ChromeDriver :
 ## 📝 Notes
 - Les identifiants par défaut sont : `admin` / `password123`
 - L'application tourne sur `http://localhost:5000/login` par défaut
+
+### Image interface login
+![interface login](images/interface-app.png)
